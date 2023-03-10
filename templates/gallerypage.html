@@ -1,0 +1,53 @@
+{% extends 'base.html'%}
+{%  load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  {% block content %}
+    <img src="{% static 'images/images.png'%}" style="width:100%;height:300px">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="{%  static 'images/download.jpg'%}" style="width:100%;height:100%" class="img-thumbnail">
+        </div>
+        <div class="col-md-4">
+            <img src="{%  static 'images/images (5).jpg'%}" style="width:100%;height:100%" class="img-thumbnail">
+        </div>
+        <div class="col-md-4">
+            <img src="{%  static 'images/images (4).jpg'%}" style="width:100%;height:100%" class="img-thumbnail">
+
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="{%  static 'images/download.jpg'%}" style="width:100%;height:100%" class="img-thumbnail">
+        </div>
+        <div class="col-md-4">
+          <img src="{%  static 'images/download (2).jpg'%}" style="width:100%;height:100%" class="img-thumbnail">
+        </div>
+        <div class="col-md-4">
+          <img src="{%  static 'images/download (3).jpg'%}" style="width:100%;height:100%" class="img-thumbnail">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="{%  static 'images/images (1).jpg'%}" style="width:100%;height:100%" class="img-thumbnail">
+      </div>
+      <div class="col-md-4">
+        <img src="{%  static 'images/images (3).jpg'%}" style="width:100%;height:100%" class="img-thumbnail">
+      </div>
+      <div class="col-md-4">
+        <img src="{%  static 'images/images (2).jpg'%}" style="width:100%;height:100%" class="img-thumbnail">
+
+      </div>
+    </div>
+
+    </div>
+    {%  endblock %}
+  </body>
+</html>
